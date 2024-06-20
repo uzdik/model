@@ -51,12 +51,12 @@ const App = () => {
     <div className="App">
       {loading.loading && <Loader>Loading model... {(loading.progress * 100).toFixed(2)}%</Loader>}
       <div className="header">
-        <h1>Live Detection App</h1>
+        <h1>Live Detection</h1>
         <p>
-          YOLOv8 алгоритмі арқылы фото-бейне-лайв режимінде анықтау, айқындау. <code>tensorflow.js</code>
+          <code>YOLOv8 </code> алгоритмі арқылы фото-бейне-лайв режимінде анықтау, айқындау. 
         </p>
         <p>
-          Алгоритмі: <code className="code">{modelName}</code>
+          Қолданылған AI модель: <code className="code">{modelName}</code>
         </p>
       </div>
 
