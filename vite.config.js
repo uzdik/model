@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/detect/",
+  base: "/model/",
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 2000, // handle warning on vendor.js bundle size
