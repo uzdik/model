@@ -7,11 +7,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist -r https://github.com/uzdik/detect.git"
+    "deploy": "gh-pages -d dist -r https://github.com/uzdik/model.git"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hyuto/yolov8-tfjs.git"
+    "url": "https://github.com/uzdik/model.git"
   },
   "keywords": [
     "object detection",
@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/Hyuto/yolov8-tfjs/issues"
   },
-  "homepage": "https://uzdik.github.io/detect",
+  "homepage": "https://uzdik.github.io/model",
   "dependencies": {
     "@tensorflow/tfjs": "^4.1.0",
     "normalize.css": "^8.0.1",
