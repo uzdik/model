@@ -53,7 +53,7 @@ const App = () => {
       <div className="header">
         <h1>Live Detection</h1>
         <p>
-          <code>YOLOv8 </code> алгоритмі арқылы фото-бейне-лайв режимінде анықтау, айқындау. 
+          <code>YOLOv8</code> алгоритмі арқылы фото-бейне-лайв режимінде анықтау, айқындау. 
         </p>
         <p>
           Қолданылған AI модель: <code className="code">{modelName}</code>
