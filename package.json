@@ -2,13 +2,13 @@
   "name": "yolov8-tfjs",
   "description": "Object detection application right in your browser using YOLOv8 and Tensorflow.js",
   "version": "1.0.0",
-"scripts": {
-  "start": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "yarn build",
-  "deploy": "gh-pages -d dist -r https://github.com/uzdik/detect.git"
-},
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist -r https://github.com/uzdik/detect.git"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hyuto/yolov8-tfjs.git"
